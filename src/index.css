@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .translate-brutal-hover {
+    @apply translate-x-[1px] translate-y-[1px] shadow-brutal-hover;
+  }
+  .translate-brutal-hover-card {
+    @apply translate-x-[2px] translate-y-[2px] shadow-brutal-sm;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F6F3EC;
+  border-left: 1.5px solid #0D0D0D;
+}
+::-webkit-scrollbar-thumb {
+  background: #0D0D0D;
+  border: 1.5px solid #0D0D0D;
+}
